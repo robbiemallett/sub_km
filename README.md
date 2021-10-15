@@ -2,14 +2,14 @@
 
 # Sub-kilometre scale distribution of snow depth on Arctic sea ice from Soviet drifting stations
 
-## Mallett et al. (In Prep)
-### Structure
+## Mallett et al. (In Revision)
+### General
 
-All analysis for this paper was performed in Python in Jupyter Notebooks.
+All analysis for this paper was performed in Python in Jupyter Notebooks on a Linux machine.
 
-The notebooks required to reproduce the analysis in the paper are in the /notebooks directory.
+The notebooks required to reproduce the analysis in the paper are in the /notebooks directory. The NP snow depth transect data are stored in the /NP_transects directory.
 
-The NP snow depth transect data are stored in the /NP_transects directory. These were supplied in a private communication from the National Snow and Ice Data Center, in Boulder, CO, USA. They are not (to the lead author's knowledge) currently publicly available elsewhere on the internet.
+The transect data were supplied in a private communication from the National Snow and Ice Data Center, in Boulder, CO, USA. They are not (to the lead author's knowledge) currently publicly available elsewhere on the internet.
 
 ### Reproducing the main analysis & Figure 2
 
@@ -57,11 +57,15 @@ All data visualisation was made using Matplotlib (Hunter, 2007).
 
 Numerical analysis was performed with numpy (Harris et al., 2020), pandas (McKinney, 2010) and scipy (Virtanen et al., 2020).
 
-Hunter, J.D., 2007, Matplotlib: A 2D Graphics Environment, Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95
+### References
 
 Harris, C.R., Millman, K.J., van der Walt, S.J., Gommers, R., Virtanen, P., Cournapeau, D., Wieser, E., Taylor, J., Berg, S., Smith, N.J. and Kern, R., 2020. Array programming with NumPy. Nature, 585(7825), pp.357-362.
 
+Hunter, J.D., 2007, Matplotlib: A 2D Graphics Environment, Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95
+
 McKinney, W., 2010, June. Data structures for statistical computing in python. In Proceedings of the 9th Python in Science Conference (Vol. 445, pp. 51-56).
+
+Mallett, R., Stroeve, J.C., Tsamados, M., Willatt, R., Newman, T., Nandan, V., Landy, J., Itkin, P., Oggier, M., Jaggi, M. and Perovich, D., 2021. Sub-kilometre scale distribution of snow depth on Arctic sea ice from Soviet drifting stations. _EarthArXiv Preprint_
 
 Virtanen, P., Gommers, R., Oliphant, T.E., Haberland, M., Reddy, T., Cournapeau, D., Burovski, E., Peterson, P., Weckesser, W., Bright, J. and Van Der Walt, S.J., 2020. SciPy 1.0: fundamental algorithms for scientific computing in Python. Nature methods, 17(3), pp.261-272.
 
