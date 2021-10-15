@@ -41,7 +41,7 @@ The coefficient of variation regression and skew normal fit of the data are done
 
 **Figure S1** (showing the sample skewness of the evaluation data) is made using compare_FYI.ipynb
 
-**Figure S2** (showing teh best skew normal fits to the MOSAiC northern transects) is made using compare_MOSAiC.ipynb
+**Figure S2** (showing the best skew normal fits to the MOSAiC runway transects) is made using compare_MOSAiC.ipynb
 
 **Figure S3** (showing the areal coverage of negative snow depths in the NP model) is made using Negative_depths.ipynb
 
