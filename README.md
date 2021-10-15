@@ -1,4 +1,4 @@
-## Code repository for:
+## Code and data repository for:
 
 # Sub-kilometre scale distribution of snow depth on Arctic sea ice from Soviet drifting stations
 
