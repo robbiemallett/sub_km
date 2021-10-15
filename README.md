@@ -9,7 +9,7 @@ All analysis for this paper was performed in Python in Jupyter Notebooks.
 
 The notebooks required to reproduce the analysis in the paper are in the /notebooks directory.
 
-The NP snow depth transect data are stored in the /NP_transects directory. These were supplied in a private communication from the National Snow and Ice Data Center, in Boulder, CO, USA. They are not currently publicly available elsewhere on the internet.
+The NP snow depth transect data are stored in the /NP_transects directory. These were supplied in a private communication from the National Snow and Ice Data Center, in Boulder, CO, USA. They are not (to the lead author's knowledge) currently publicly available elsewhere on the internet.
 
 ### Reproducing the main analysis & Figure 2
 
