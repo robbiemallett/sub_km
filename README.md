@@ -39,17 +39,19 @@ The coefficient of variation regression and skew normal fit of the data are done
 
 ### Reproducing supplementary figures
 
-**Figure S1** (showing the sample skewness of the evaluation data) is made using compare_FYI.ipynb
+**Figure S1** (showing the point density of Fig. 2a) is made using Make_fit.ipynb
 
-**Figure S2** (showing the best skew normal fits to the MOSAiC runway transects) is made using compare_MOSAiC.ipynb
+**Figure S2** (showing the sample skewness of the evaluation data) is made using compare_FYI.ipynb
 
-**Figure S3** (showing the areal coverage of negative snow depths in the NP model) is made using Negative_depths.ipynb
+**Figure S3** (showing the best skew normal fits to the MOSAiC runway transects) is made using compare_MOSAiC.ipynb
 
-**Figure S4** (showing the coefficient of variation for the FYI evaluations) is made using compare_FYI.ipynb
+**Figure S4** (showing the areal coverage of negative snow depths in the NP model) is made using Negative_depths.ipynb
 
-**Figure S5** (showing the best skew normal fits to the MOSAiC runway transects) is made using compare_FYI.ipynb
+**Figure S5** (showing the coefficient of variation for the FYI evaluations) is made using compare_FYI.ipynb
 
-**Figure S6** (showing the correlation lengths of the NP transects) is made using autocorrelation.ipynb
+**Figure S6** (showing the best skew normal fits to the MOSAiC runway transects) is made using compare_FYI.ipynb
+
+**Figure S7** (showing the correlation lengths of the NP transects) is made using autocorrelation.ipynb
 
 ### Key python modules used
 
