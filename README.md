@@ -11,31 +11,33 @@ The notebooks required to reproduce the analysis in the paper are in the /notebo
 
 The transect data were supplied in a private communication from the National Snow and Ice Data Center, in Boulder, CO, USA. They are not (to the lead author's knowledge) currently publicly available elsewhere on the internet.
 
-### Reproducing the main analysis & Figure 2
+### Reproducing the main analysis & Figure 3
 
 The first step is to wrangle the numerous transect files (in /NP_transects) into one data structure. This is done in the Process_line_data.ipynb notebook. It gathers all the transects into one Python dictionary. This dictionary is then saved as a pickle file (/pickles/line_depths_dict.p') for future use by different notebooks. The pickle file is included in the github repo, so you don't need to make it yourself.
 
 I have also produced a spreadsheet called stake_depths.xlsx that has all the data from the individual files. But the main analysis uses the raw data - this excel file is just for the convenience of others.
 
-The coefficient of variation regression and skew normal fit of the data are done in /notebooks/Make_fit.ipynb. Once again, the results of this analysis are stored in a Python dictionary (/pickles/statistics.p) for use within other notebooks. The analysis is performed for all seasons, winter and summer. This notebook also generates **Figure 2**. 
+The coefficient of variation regression and skew normal fit of the data are done in /notebooks/Make_fit.ipynb. Once again, the results of this analysis are stored in a Python dictionary (/pickles/statistics.p) for use within other notebooks. The analysis is performed for all seasons, winter and summer. This notebook also generates **Figure 3**. 
 
 ### Reproducing other main text figures
 
-**Figure 1** (showing the timeline of the NP station transects) is made using make_transects_fig.ipynb.
+**Figure 1** (showing the map of the snow transects used in the study) is used in F1_make_map.ipynb.
 
-**Figure 3** (showing the fits of the gamma, log-normal and skew normal distributions) is made using compare_distributions.ipynb. 
+**Figure 2** (showing the timeline of the NP station transects) is made using F2_make_transects_fig.ipynb.
 
-**Figure 4** (showing the LOOCV analysis) is made using cross_validation.ipynb
+**Figure 4** (showing the fits of the gamma, log-normal and skew normal distributions) is made using F4_compare_distributions.ipynb. 
 
-**Figure 5** and **Figure 6** (showing the MOSAiC evaluations) are made using compare_MOSAiC.ipyng
+**Figure 5** (showing the LOOCV analysis) is made using F5_cross_validation.ipynb
 
-**Figure 7** and **Figure 8** (showing the SHEBA evaluations) are made using compare_SHEBA.ipynb
+**Figure 6** and **Figure 7** (showing the MOSAiC evaluations) are made using F6_7_compare_MOSAiC.ipyng
 
-**Figure 9** (showing best skew normal fits to the above evaluation data) is also made using compare_SHEBA.ipynb
+**Figure 8** and **Figure 9** (showing the SHEBA evaluations) are made using F8_9_compare_SHEBA.ipynb
 
-**Figure 10** (showing the FYI evaluations) is made using compare_FYI.ipynb
+**Figure 10** (showing best skew normal fits to the above evaluation data) is also made using F10_compare_SHEBA.ipynb
 
-**Figure 11** (showing the correlation lengths and sampling interval analysis) is made using autocorrelation.ipynb (top two panels) and Explore_sampling_density.ipynb (bottom two panels)
+**Figure 11** (showing the FYI evaluations) is made using F11_compare_FYI.ipynb
+
+**Figure 12** (showing the correlation lengths and sampling interval analysis) is made using F12_autocorrelation.ipynb (top two panels) and Explore_sampling_density.ipynb (bottom two panels)
 
 ### Reproducing supplementary figures
 
