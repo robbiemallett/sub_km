@@ -5,9 +5,11 @@
 ## Mallett et al. (Accepted, Journal of Glaciology)
 ### General
 
-All analysis for this paper was performed in Python in Jupyter Notebooks on a Linux machine. You can view the paper and supplement in the *submission* directory, and you can get the raw figure files in *figures*.
+You can download the paper and supplement in the */submission* directory, and you can get the raw figure files in */figures*.
 
-The notebooks required to reproduce the analysis in the paper are in the /notebooks directory. The NP snow depth transect data are stored in the /NP_transects directory.
+All analysis for this paper was performed in Python in Jupyter Notebooks on a Linux machine. 
+
+The notebooks required to reproduce the analysis in the paper are in the */notebooks* directory. The NP snow depth transect data are stored in the */NP_transects* directory.
 
 The transect data were supplied in a private communication from the National Snow and Ice Data Center, in Boulder, CO, USA. They are not (to the lead author's knowledge) currently publicly available elsewhere on the internet.
 
