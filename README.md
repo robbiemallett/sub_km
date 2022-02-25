@@ -2,10 +2,10 @@
 
 # Sub-kilometre scale distribution of snow depth on Arctic sea ice from Soviet drifting stations
 
-## Mallett et al. (In Revision)
+## Mallett et al. (Accepted, Journal of Glaciology)
 ### General
 
-All analysis for this paper was performed in Python in Jupyter Notebooks on a Linux machine.
+All analysis for this paper was performed in Python in Jupyter Notebooks on a Linux machine. You can view the paper and supplement in the *submission* directory, and you can get the raw figure files in *figures*.
 
 The notebooks required to reproduce the analysis in the paper are in the /notebooks directory. The NP snow depth transect data are stored in the /NP_transects directory.
 
