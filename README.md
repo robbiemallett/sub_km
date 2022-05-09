@@ -2,7 +2,9 @@
 
 # Sub-kilometre scale distribution of snow depth on Arctic sea ice from Soviet drifting stations
 
-## Mallett et al. (2022, Journal of Glaciology)
+## Mallett et al., 2022
+## Journal of Glaciology
+
 ### General
 
 You can download the paper and supplement in the */submission* directory, and you can get the raw figure files in */figures*.
