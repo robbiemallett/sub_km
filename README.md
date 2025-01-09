@@ -2,7 +2,9 @@
 
 # Sub-kilometre scale distribution of snow depth on Arctic sea ice from Soviet drifting stations
 
-## Mallett et al. (Accepted, Journal of Glaciology)
+## Mallett et al., 2022
+## Journal of Glaciology
+
 ### General
 
 You can download the paper and supplement in the */submission* directory, and you can get the raw figure files in */figures*.
@@ -31,7 +33,7 @@ The coefficient of variation regression and skew normal fit of the data are done
 
 **Figure 5** (showing the LOOCV analysis) is made using F5_cross_validation.ipynb
 
-**Figure 6** and **Figure 7** (showing the MOSAiC evaluations) are made using F6_7_compare_MOSAiC.ipyng
+**Figure 6** and **Figure 7** (showing the MOSAiC evaluations) are made using F6_7_compare_MOSAiC.ipynb. However, these data are not currently available. As soon as they become available, I will link them here. This will either be in January 2023 when the embargo on MOSAiC data is lifted, or earlier when a dedicated paper to the magnaprobe data is released.
 
 **Figure 8** and **Figure 9** (showing the SHEBA evaluations) are made using F8_9_compare_SHEBA.ipynb
 
